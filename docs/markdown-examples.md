@@ -22,7 +22,7 @@ export default {
 
 **Output**
 
-```js{4}
+```js{4}:line-numbers
 export default {
   data () {
     return {
