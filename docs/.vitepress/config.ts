@@ -5,7 +5,7 @@ export default defineConfig({
     title: "Noddle docs",
     description: "逸轩的前端文档",
     outDir: '../front-end-docs',
-    base: '/docs/',
+    base: '/front-end-docs/',
     themeConfig: {
         logo: '😄',
         // https://vitepress.dev/reference/default-theme-config
