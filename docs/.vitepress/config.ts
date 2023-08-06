@@ -6,8 +6,9 @@ export default defineConfig({
     description: "逸轩的前端文档",
     outDir: '../front-end-docs',
     base: '/front-end-docs/',
+    head: [['link', { rel: 'icon', href: '/book_mark.svg' }]],
     themeConfig: {
-        logo: '😄',
+        logo: 'https:///book_mark.svg',
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
