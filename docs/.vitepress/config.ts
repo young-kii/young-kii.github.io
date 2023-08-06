@@ -1,14 +1,15 @@
 import {defineConfig} from 'vitepress'
 
+const rawContentUrl = 'https://raw.githubusercontent.com/young-kii/young-kii.github.io'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "Noddle docs",
     description: "逸轩的前端文档",
     outDir: '../front-end-docs',
     base: '/front-end-docs/',
-    head: [['link', { rel: 'icon', href: '/book_mark.svg' }]],
+    head: [['link', { rel: 'icon', href: rawContentUrl + '/master/assets/images/book_mark.svg' }]],
     themeConfig: {
-        logo: 'https:///book_mark.svg',
+        logo: rawContentUrl + '/master/assets/images/book_mark.svg',
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
